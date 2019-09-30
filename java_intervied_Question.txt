@@ -1,0 +1,78 @@
+1.what is difference between JDK,JRE,JVM>?
+JVM is an abstarct machonoe .it is specification that provides 
+runtime enviroment in which java bytecode can be executed.
+JRE is runtime enviroment which impliment jvm and provides all class libraries and other files that JVM uses
+at runtime.
+JDK is the tool neccessory to compile,document and packeage java program.ThaJDK
+completely
+includes JRE
+---------------------------------------------------------------------------------
+2.What is synchronization?
+Synchronization is process which keeps all concurrent threds in execution 
+to be in Sync.
+Sychronization avoid memory consistency error caused due to in consistent
+view of shared memory.
+----------------------------------------------------------------------------------------------------------
+3.what is differenece between process and threds?
+
+process-
+=An executing instance of program is called a process
+=process must use inter-process communication to communicate 
+with sibling processs
+=process can ony exercise control over child
+process
+=Any change in parent process does not affesct chile process
+=run in seperate memory spaces
+=process is controlled by the OS
+=process is independent
+
+Threds-
+=a thred a asubset of the process
+=threds can directly communicate with other threds of its process
+=Threds cand exercide considerable control over threds of the same process
+=An change in the main threds may affect the behivoir of the other threds of the process
+=Run is shared memory spaces
+=Threds are contrdolled by programmer in program
+threads are dependent
+------------------------------------------------------------------
+4.What are Wrapper classes ?
+Each of java eight primitive data types has a class dedicated to it.
+These are know as wrapper as wrappper classes
+beacause they Wrap the  primitive data type intoa object of the class.
+primitive	Wrapper
+boolean 	Boolean
+byte		Byte
+char		Character
+int 		Integer
+float		Float
+double 		Double
+long 		Log
+short		Short
+-------------------------------------------------------------------------
+5.What is purpose does the keyword final,finally,finalize fulfill?
+
+final=
+final is used to apply restriction on class ,method and variable.final class
+cant be inherited ,final
+method cont be overriden and final variable value cant be changed
+
+finally=
+Finally is used to place important code,
+it will be executed whether exception is hanled or not.
+
+Finalize=
+finalize is used to perform clean up processing just before object is 
+garbage collected
+-------------------------------------------------------------------------------
+6.What is difference between StringBuffer and StringBuilder?
+
+StringBuffer=
+StringBuffer opeartion are thred-safe and synchromized where StringBulider ipeation are not 
+thread-safe
+
+StringBuffer is to be used when mulitiple threads are working on same String and StringBulider in the 
+single threded envirment.
+StringBuilder performance is faster when compared to StringBuffer
+Because of no iverhead of Synchrnized
+------------------------------------------------------------------------------
+7. 
