@@ -1,4 +1,6 @@
 1.what is difference between JDK,JRE,JVM>?
+
+bdfsddf
 JVM is an abstarct machonoe .it is specification that provides 
 runtime enviroment in which java bytecode can be executed.
 JRE is runtime enviroment which impliment jvm and provides all class libraries and other files that JVM uses
